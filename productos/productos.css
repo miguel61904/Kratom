@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales para el cuerpo del sitio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    background: url("https://www.seattlemet.com/discover/wp-content/uploads/2024/02/1401-featured-image.jpg");
+    }
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(255, 255, 255, .5);
+    color: black;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.catalog-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+.catalog-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.catalog-card h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.catalog-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales para el cuerpo del sitio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    background: url("https://www.seattlemet.com/discover/wp-content/uploads/2024/02/1401-featured-image.jpg");
+    }
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(255, 255, 255, .5);
+    color: black;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.producto {
+    margin-bottom: 20px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#inicio {
+    text-align: center;
+}
+
+#inicio h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones de acción en la sección de inicio */
+#inicio .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#inicio .btn:hover {
+    background-color: #555;
+}
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="whatsapp.css">
+    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="contacto.css">
+    <title>MedellínKratom</title>
+    <!-- Agregar enlaces a hojas de estilo CSS aquí -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/573215975046?text=¡Hola!%20Me%20encuentro%20interesado%20en%20cotizar%20un%20trabajo" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <header>
+      <!-- Encabezado del sitio, posiblemente con el logotipo y el menú de navegación -->
+      <img src="assets/img/logo.png" alt="" style="width: 100px; height: 80px;">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./productos/productos.html">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+      <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="https://emeraldislehealthandrecovery.com/wp-content/uploads/2023/03/kratom.webp" alt="Slide 1"></div>
+            <div class="slide"><img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2023-07/230731-kratom-leaves-se-441p-2eb0c5.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="https://www.tmc.edu/news/wp-content/uploads/sites/2/2019/08/20190613_kratom_203.jpg" alt="Slide 3"></div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+      <section id="productos">
+        <div id="textArea">
+          <h2>Nuestos productos</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolore exercitationem quaerat similique, et consequatur modi eligendi cupiditate magnam quas? Omnis quis maiores hic deserunt? Nostrum soluta voluptates necessitatibus odit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eos assumenda facilis, laudantium quae iure ad, nam quis repellendus dolorum cum minima. Quo in eum culpa fugiat repellendus vel itaque?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quibusdam deserunt repellat ullam unde eaque labore, sint ad corrupti et alias tenetur expedita magni harum recusandae reprehenderit eligendi veritatis ea!
+          </p>
+        </div>
+        <div class="container-products">
+        <div class="container">
+          <div class="wrapper">
+            <div class="banner-image"> </div>
+            <h1> Kratom 1</h1>
+            <p>Lorem ipsum dolor sit amet, <br/>
+              consectetur adipiscing elit.</p>
+           </div>
+           <div class="button-wrapper"> 
+           <button class="btn outline">DETAILS</button>
+             <button class="btn fill">BUY NOW</button>
+           </div>
+             </div>
+             <div class="container">
+              <div class="wrapper">
+                <div class="banner-image"> </div>
+                <h1> Kratom 1</h1>
+                <p>Lorem ipsum dolor sit amet, <br/>
+                  consectetur adipiscing elit.</p>
+               </div>
+               <div class="button-wrapper"> 
+               <button class="btn outline">DETAILS</button>
+                 <button class="btn fill">BUY NOW</button>
+               </div>
+                 </div>
+                 <div class="container">
+                  <div class="wrapper">
+                    <div class="banner-image"> </div>
+                    <h1> Kratom 1</h1>
+                    <p>Lorem ipsum dolor sit amet, <br/>
+                      consectetur adipiscing elit.</p>
+                   </div>
+                   <div class="button-wrapper"> 
+                   <button class="btn outline">DETAILS</button>
+                     <button class="btn fill">BUY NOW</button>
+                   </div>
+                     </div>
+                     <div class="container">
+                      <div class="wrapper">
+                        <div class="banner-image"> </div>
+                        <h1> Kratom 1</h1>
+                        <p>Lorem ipsum dolor sit amet, <br/>
+                          consectetur adipiscing elit.</p>
+                       </div>
+                       <div class="button-wrapper"> 
+                       <button class="btn outline">DETAILS</button>
+                         <button class="btn fill">BUY NOW</button>
+                       </div>
+                         </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="contacto">
+        <form action="/enviar.php" method="post">
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" id="nombre" name="nombre" required><br><br>
+  
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+  
+          <label for="mensaje">Mensaje:</label><br>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+  
+          <input type="submit" value="Enviar">
+      </form>
+    </main>
+
+    <footer>
+      <!-- Pie de página con información adicional o enlaces importantes -->
+      <p>
+        &copy; 2024 Tu Tienda de Productos Saludables. Todos los derechos
+        reservados.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Agregar enlaces a scripts JavaScript aquí -->
+  </body>
+</html>

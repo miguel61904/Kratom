@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="whatsapp.css">
     <link rel="stylesheet" href="productos.css">
     <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>MedellínKratom</title>
     <!-- Agregar enlaces a hojas de estilo CSS aquí -->
   </head>
@@ -16,41 +20,47 @@
     <i class="fa fa-whatsapp my-float"></i>
     </a>
     <header>
+      <div class="nav_respon">
+        <div class="toggle" onclick=alternar()><img src="/assets/iconos/menu.png" alt="" style="height: 50px; width: 50px;"></div>
+        <div class="toggle2" onclick=cerrar()><img src="/assets/iconos/boton-x.png" alt=""style="height: 37px; width: 37px;"></div>
+        <ul class="barNav cerrado" id="menu">
+          <li><a href="/productos/productos.html">Productos</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">¿Que es Kratom?</a></li>
+        </ul>
+      </div>
       <!-- Encabezado del sitio, posiblemente con el logotipo y el menú de navegación -->
       <img src="assets/img/logo.png" alt="" style="width: 100px; height: 80px;">
       <nav>
         <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./productos/productos.html">Productos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="./index.html">Redes Sociales |</a></li>
+          <li><a href="./productos/productos.html"><img src="./assets/iconos/facebook.png" alt="" style="height: 20px; width: 20px;"></a></li>
+          <li><a href="#contacto"><img src="./assets/iconos/instagram.png" alt="" style="height: 20px; width: 20px;" ></a></li>
         </ul>
       </nav>
     </header>
-      <div class="slider-container">
         <div class="slider">
-            <div class="slide"><img src="https://emeraldislehealthandrecovery.com/wp-content/uploads/2023/03/kratom.webp" alt="Slide 1"></div>
-            <div class="slide"><img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2023-07/230731-kratom-leaves-se-441p-2eb0c5.jpg" alt="Slide 2"></div>
-            <div class="slide"><img src="https://www.tmc.edu/news/wp-content/uploads/sites/2/2019/08/20190613_kratom_203.jpg" alt="Slide 3"></div>
+          <ul>
+            <li><img src="https://images3.alphacoders.com/133/1332803.png" alt="Imagen 1"></li>
+            <li><img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2023-07/230731-kratom-leaves-se-441p-2eb0c5.jpg" alt="Imagen 2"></li>
+            </li><img src="https://www.tmc.edu/news/wp-content/uploads/sites/2/2019/08/20190613_kratom_203.jpg" alt="Imagen 3"></li>
+            </li><img src="https://www.tmc.edu/news/wp-content/uploads/sites/2/2019/08/20190613_kratom_203.jpg" alt="Imagen 3"></li>
+          </ul>
         </div>
-        <button class="prev" onclick="prevSlide()">&#10094;</button>
-        <button class="next" onclick="nextSlide()">&#10095;</button>
-    </div>
-
       <section id="productos">
         <div id="textArea">
           <h2>Nuestos productos</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolore exercitationem quaerat similique, et consequatur modi eligendi cupiditate magnam quas? Omnis quis maiores hic deserunt? Nostrum soluta voluptates necessitatibus odit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eos assumenda facilis, laudantium quae iure ad, nam quis repellendus dolorum cum minima. Quo in eum culpa fugiat repellendus vel itaque?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quibusdam deserunt repellat ullam unde eaque labore, sint ad corrupti et alias tenetur expedita magni harum recusandae reprehenderit eligendi veritatis ea!
-          </p>
         </div>
         <div class="container-products">
         <div class="container">
           <div class="wrapper">
-            <div class="banner-image"> </div>
+            <div class="banner-image"><img src="https://images3.alphacoders.com/133/1332803.png" alt=""> </div>
+            <div class="container_text">
             <h1> Kratom 1</h1>
             <p>Lorem ipsum dolor sit amet, <br/>
               consectetur adipiscing elit.</p>
+            </div>
            </div>
            <div class="button-wrapper"> 
            <button class="btn outline">DETAILS</button>
@@ -59,10 +69,12 @@
              </div>
              <div class="container">
               <div class="wrapper">
-                <div class="banner-image"> </div>
+                <div class="banner-image"><img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2023-07/230731-kratom-leaves-se-441p-2eb0c5.jpg" alt=""> </div>
+                <div class="container_text">
                 <h1> Kratom 1</h1>
                 <p>Lorem ipsum dolor sit amet, <br/>
                   consectetur adipiscing elit.</p>
+                </div>
                </div>
                <div class="button-wrapper"> 
                <button class="btn outline">DETAILS</button>
@@ -71,10 +83,12 @@
                  </div>
                  <div class="container">
                   <div class="wrapper">
-                    <div class="banner-image"> </div>
+                    <div class="banner-image"><img src="https://www.tmc.edu/news/wp-content/uploads/sites/2/2019/08/20190613_kratom_203.jpg" alt=""> </div>
+                    <div class="container_text">
                     <h1> Kratom 1</h1>
                     <p>Lorem ipsum dolor sit amet, <br/>
                       consectetur adipiscing elit.</p>
+                    </div>
                    </div>
                    <div class="button-wrapper"> 
                    <button class="btn outline">DETAILS</button>
@@ -83,10 +97,12 @@
                      </div>
                      <div class="container">
                       <div class="wrapper">
-                        <div class="banner-image"> </div>
+                        <div class="banner-image"> <img src="https://www.tmc.edu/news/wp-content/uploads/sites/2/2019/08/20190613_kratom_203.jpg" alt=""> </div>
+                        <div class="container_text">
                         <h1> Kratom 1</h1>
                         <p>Lorem ipsum dolor sit amet, <br/>
                           consectetur adipiscing elit.</p>
+                        </div>
                        </div>
                        <div class="button-wrapper"> 
                        <button class="btn outline">DETAILS</button>
@@ -96,9 +112,27 @@
             </div>
          </div>
       </section>
-
+      <section class="categorias">
+        <h2>Categorias</h2>
+      <div class="contenedor-categorias">
+        <div class="conetendor-cat1">
+          <div class="card">
+            <img src="https://miraclecbd.cz/wp-content/uploads/2023/10/kratom-drops-kapky-1.png" alt="">
+          </div>
+          <div class="card">
+            <img src="https://miraclecbd.cz/wp-content/uploads/2023/10/kratom-drops-kapky-1.png" alt="">
+          </div>
+        </div>
+        <div class="conetendor-cat2">
+          <div class="card2">
+            <img src="https://images-platform.99static.com/URi_h3O3S-35KCI6gJiAnUTmHGQ=/0x0:1417x1417/500x500/top/smart/99designs-contests-attachments/138/138212/attachment_138212918" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
       <section id="contacto">
-          <form action="./enviar.php" method="POST">
+        <h2 style="margin-top: 25px;">Contacto</h2>
+        <form action="./enviar.php" method="POST">
           <label for="nombre">Nombre:</label><br>
           <input type="text" id="nombre" name="nombre" required><br><br>
   
@@ -111,7 +145,7 @@
           <input type="submit" value="Enviar">
       </form>
     </main>
-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.53683691651!2d-75.21209402410939!3d6.058086093927789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46a505049a127b%3A0xa8694390cb674cd8!2sFREAK&#39;N%20CREEK&#39;N%20OFFICIAL!5e0!3m2!1ses!2sco!4v1711757470650!5m2!1ses!2sco" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
       <!-- Pie de página con información adicional o enlaces importantes -->
       <p>

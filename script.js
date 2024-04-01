@@ -1,20 +1,20 @@
-let slideIndex = 0;
+let icon = document.querySelector(".toggle");
+let icon2 = document.querySelector(".toggle2");
+let barra = document.querySelector(".barNav");
+let body = document.querySelector("body")
 
-function showSlides() {
-    const slides = document.querySelectorAll('.slide');
-    if (slideIndex >= slides.length) { slideIndex = 0; }
-    if (slideIndex < 0) { slideIndex = slides.length - 1; }
-    slides.forEach(slide => slide.style.transform = `translateX(-${slideIndex * 100}%)`);
+
+
+function alternar(){
+    body.style.overflow = 'hidden'
+    barra.style.display = 'flex'
+    icon.style.display = 'none'
+    icon2.style.display = 'flex'
 }
 
-function nextSlide() {
-    slideIndex++;
-    showSlides();
+function cerrar(){
+    body.style.overflow = 'Visible'
+    barra.style.display = 'none'
+    icon2.style.display = 'none'
+    icon.style.display = 'flex'
 }
-
-function prevSlide() {
-    slideIndex--;
-    showSlides();
-}
-
-showSlides();

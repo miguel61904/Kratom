@@ -4,23 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="productos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../estilos.css">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>productos</title>
 </head>
 <body>
-    <header>
-        <!-- Encabezado del sitio, posiblemente con el logotipo y el menú de navegación -->
-        <img src="..\assets/img/logo.png" alt="" style="width: 100px; height: 80px;">
-        <nav>
-          <ul>
-            <li><a href="..\index.html">Inicio</a></li>
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </nav>
+  <header>
+    <div class="nav_respon">
+      <div class="toggle" onclick=alternar()><img src="../assets/iconos/menu.png" alt="" style="height: 50px; width: 50px;"></div>
+      <div class="toggle2" onclick=cerrar()><img src="../assets/iconos/boton-x.png" alt=""style="height: 37px; width: 37px;"></div>
+      <ul class="barNav cerrado" id="menu">
+        <li><a href="/productos/productos.html">Productos</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">¿Que es Kratom?</a></li>
+      </ul>
+    </div>
+    <!-- Encabezado del sitio, posiblemente con el logotipo y el menú de navegación -->
+    <img src="../assets/img/logo.png" alt="" style="width: 100px; height: 80px;">
+    <nav>
+      <ul>
+        <li><a href="./index.html">Redes Sociales |</a></li>
+        <li><a href="../productos/productos.html"><img src="../assets/iconos/facebook.png" alt="" style="height: 20px; width: 20px;"></a></li>
+        <li><a href="#contacto"><img src="../assets/iconos/instagram.png" alt="" style="height: 20px; width: 20px;" ></a></li>
+      </ul>
+    </nav>
+  </header>
       </header>
-      <div id="catalog">
+      <aside class="categoria">
+        <div class="categoria_div">
+          <button>Kratoms</button>
+          <button>Otros</button>
+          <button>Otros</button>
+        </div>
+      </aside>
+      <div id="catalog" >
 
       </div>
       <script src="script.js"></script>
+      <script src="../script.js"></script>
 </body>
 </html>

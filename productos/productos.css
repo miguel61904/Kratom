@@ -53,7 +53,7 @@ body {
     padding: 0;
 }
 
-.catalog-card {
+#catalog-card {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
@@ -62,17 +62,17 @@ body {
     display: inline-block;
 }
 
-.catalog-card img {
+#catalog-card img {
     max-width: 100%;
     height: auto;
 }
 
-.catalog-card h2 {
+#catalog-card h2 {
     font-size: 18px;
     margin: 5px 0;
 }
 
-.catalog-card p {
+#catalog-card p {
     font-size: 14px;
     margin: 5px 0;
 }

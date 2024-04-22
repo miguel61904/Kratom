@@ -137,6 +137,3 @@ cat3.addEventListener("click", ()=>{
 //         }
 //     }
 //})
-
-    catalog.style.display = "flex"
-})

@@ -125,3 +125,11 @@ p {
   95%{border: solid 1px #f17272;}
   100%{border: solid 1px #f17272;}
 }
+
+@media only screen and (max-width: 600px) {
+  .container-products{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

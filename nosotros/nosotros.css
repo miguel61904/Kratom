@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+}
+
+.slide{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.info img{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*cuadrado info*/
+
+.cuadro{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container div{
+    width: 25%;
+    margin: 10px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+iframe{
+    width: 500px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}

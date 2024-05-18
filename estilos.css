@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 header h1 {
@@ -199,6 +200,11 @@ img{
     max-height: 250px;
     text-align: center;
   }
+
+  .card:hover{
+    background-color: rgba(151, 223, 130, 0.8);
+    transition: all 1s ease-in-out;
+  }
   
   .card2 {
     background-color: #fff;
@@ -212,9 +218,6 @@ img{
     max-height: 510px;
   }
 
-  .card2 img{
-    
-  }
   
   .card2 h2 {
     color: #333;
@@ -233,4 +236,11 @@ img{
     content: "•";
     margin-right: 5px;
   }
+
+  .card2:hover{
+    background-color: rgba(151, 223, 130, 0.8);
+    transition: all 1s ease-in-out;
+  }
+
+
   

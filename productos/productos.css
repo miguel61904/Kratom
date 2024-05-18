@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Ubuntu;
 }
 
 html{
@@ -16,7 +17,6 @@ body {
     background-color: #f0f0f0;
     color: #333;
     line-height: 1.6;
-    background: url("https://www.seattlemet.com/discover/wp-content/uploads/2024/02/1401-featured-image.jpg");
     }
 
 /* Estilos para el encabezado */
@@ -108,3 +108,29 @@ aside{
     background-color: gray;
 }
 
+@media only screen and (max-width: 600px) {
+    aside{
+      float: none;
+      height: auto;
+      width: 100%;
+    }
+    .categoria_div{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .categoria_div button{
+        width: 80px;
+    }
+    .categoria_div button:hover{
+        background-color: gray;
+        border-radius: 20px;
+    }
+    #catalog{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }

@@ -40,6 +40,7 @@ const products = [
 let cat1 = document.getElementById("cat1")
 let cat2 = document.getElementById("cat2")
 let cat3 = document.getElementById("cat3")
+let cat4 = document.getElementById("cat4")
 
 const catalog = document.getElementById("catalog");
 
@@ -114,6 +115,22 @@ cat3.addEventListener("click", ()=>{
         element.style.display = "inline-block"
     })
 })
+
+cat4.addEventListener("click", ()=>{
+    let newArray = Array.from(card)
+    newArray.forEach(function (element){
+        element.style.display = "inline-block"
+    })
+    let newArray2 = Array.from(card2)
+    newArray2.forEach(function (element){
+        element.style.display = "inline-block"
+    })
+    let newArray3 = Array.from(card3)
+    newArray3.forEach(function (element){
+        element.style.display = "inline-block"
+    })
+})
+
 
 // let i = 0;
 // cat1.addEventListener("click", ()=>{

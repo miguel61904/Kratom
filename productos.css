@@ -129,6 +129,7 @@ p {
   100%{border: solid 1px #f17272;}
 }
 
+
 @media only screen and (max-width: 600px) {
   .container-products{
     display: flex;
@@ -138,11 +139,12 @@ p {
     width: 100%;
   }
   .container{
-    max-width: 200px;
-    max-height: 400px;
+    max-width: 150px;
+    max-height: 300px;
+    border: none;
   }
   .banner-image{
-    height: 150px;
+    height: auto;
     width: 100%;
   }
 
@@ -165,7 +167,7 @@ p {
   p {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     line-height: 150%;
     letter-spacing: 2px;
     text-transform: uppercase;
